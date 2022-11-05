@@ -11,7 +11,6 @@ GitOsOs <a name="TOP"></a>
 2. Information
 3. Configuration
 4. Security
-
 - - - - 
 ## 1. Data Flow
 ### 1.1 Forward 
@@ -46,7 +45,8 @@ Use **git remote add _remoteRepoName_ _https_**
     
     git remote add main https://github.com/mossssama/GitOsOs.git
     
-- - - -             - - - - 
+- - - -
+- - - - 
 ### 1.2 BackWard
 1.2.1 Return a file/folder from staging area to working directory<br/><br/>
 Use **git reset hard _fileName/folderName_**
@@ -83,7 +83,7 @@ Use **git pull _branchName_**
 
     git pull main
 - - - - 
-
+===================
 ## 2. Information 
     
 # To Be Continued #
