@@ -73,6 +73,7 @@ Use git reset --hard <hashCodeOfCommitYouWantItToBeLastCommit>
 
     git reset --hard a4ec3db1ddd361433eea4c2fe70a382ad56b0b71
 
+<br/><br/>
 1.2.3 Return a file from staging area to working directory
 Use git restore --staged <file/folderName>
 
