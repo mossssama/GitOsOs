@@ -18,7 +18,7 @@ GitOsOs <a name="TOP"></a>
 1.1.1 Initalize a repo in working directory (used when we create repo from scratch)
 
     git init
-- - - - 
+...................................................... 
 1.1.2 Add a file/fileUpdate from working directory to staging area<br/><br/>
 Use **git add _fileName_** as the following three examples
 
