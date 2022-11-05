@@ -14,7 +14,6 @@ GitOsOs <a name="TOP"></a>
 
 - - - - 
 ## 1. Data Flow
-<br/><br/>
 ### 1.1 Forward 
 1.1.1 Initalize a repo in working directory (used when we create repo from scratch)
     
@@ -25,9 +24,7 @@ GitOsOs <a name="TOP"></a>
 Use git add <fileName> as the following three examples
 
     git add OsOs.txt
-    
     git add ProjectDirectory
-    
     git add *
     
 <br/><br/>
@@ -37,19 +34,15 @@ Use git commit -m <"str">
     git commit -m "Adding BroadCast Receiver to Project"
     
 <br/><br/>
-1.1.4 Add all files at local repo to remote repo;push only
-Use git push <remoteRepoName> <localRepoName/tagName>   
+1.1.4 Add all files at local repo to remote repo
+Use git push <remoteRepoName> <localRepoName/tagName>   to push only
+or
+Use git push -u <remoteRepoName> <localRepoName/tagName> to pull then push
     
     git push origin main
-    
     git push origin master
-    
-<br/><br/>
-1.1.5 Add all files at local repo to remote repo;pull then push
-Use git push -u <remoteRepoName> <localRepoName/tagName>
-    
+        
     git push -u origin main
-    
     git push -u origin master
     
 <br/><br/>
