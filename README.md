@@ -46,7 +46,7 @@ Use **git push -u <<remoteRepoName>> <localRepoName/tagName>** to pull then push
     
 <br/><br/>
 1.1.5 Add project to remote repo with this name<br/><br/> 
-Use **git remote add <<remoteRepoName>> <<https>>** 
+Use ** git remote add <remoteRepoName> <https> ** 
     
     git remote add main https://github.com/mossssama/GitOsOs.git
     
