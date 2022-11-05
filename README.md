@@ -14,13 +14,6 @@ GitOsOs <a name="TOP"></a>
 
 - - - - 
 ## **1. Data Flow **
-### 1.1 Forward
-### 1.2 BackWard
-### 1.3 Branching
-### 1.4 Merging
-### 1.5 Stashing
-### 1.6 Tagging/Releasing
-
 <br/><br/>
 ### 1.1 Forward 
 1.1.1 Initalize a repo in working directory (used when we create repo from scratch)
