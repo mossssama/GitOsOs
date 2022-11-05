@@ -83,7 +83,7 @@ Use **git pull _branchName_**
 
     git pull main
 - - - - 
-===================
+
 ## 2. Information 
     
 # To Be Continued #
