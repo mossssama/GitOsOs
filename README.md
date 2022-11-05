@@ -2,15 +2,15 @@ GitOsOs <a name="TOP"></a>
 ===================
 # **Git Commands**
 1. DataFlow
-- Forward
-- BackWard
-- Branching
-- Merging
-- Stashing
-- Tagging
-3. Information
-4. Configuration
-5. Security
+    - Forward
+    - BackWard  
+    - Branching
+    - Merging
+    - Stashing
+    - Tagging
+2. Information
+3. Configuration
+4. Security
 
 - - - - 
 ## **1. Data Flow **
