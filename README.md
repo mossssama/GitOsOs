@@ -35,8 +35,7 @@ Use **git commit -m <"str">**
     
 <br/><br/>
 1.1.4 Add all files at local repo to remote repo<br/><br/>
-Use **git push <remoteRepoName> <localRepoName/tagName>**   to push only
-or
+Use **git push <remoteRepoName> <localRepoName/tagName>**    to push only<br><br/>
 Use **git push -u <remoteRepoName> <localRepoName/tagName>** to pull then push
     
     git push origin main
