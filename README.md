@@ -13,7 +13,7 @@ GitOsOs <a name="TOP"></a>
 4. Security
 
 - - - - 
-## **1. Data Flow **
+## 1. Data Flow
 <br/><br/>
 ### 1.1 Forward 
 1.1.1 Initalize a repo in working directory (used when we create repo from scratch)
