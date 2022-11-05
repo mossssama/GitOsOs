@@ -35,8 +35,8 @@ Use **git commit -m <"str">**
     
 <br/><br/>
 1.1.4 Add all files at local repo to remote repo<br/><br/>
-Use **git push <remoteRepoName> <localRepoName/tagName>**    to push only<br><br/>
-Use **git push -u <remoteRepoName> <localRepoName/tagName>** to pull then push
+Use **git push <<remoteRepoName>> <localRepoName/tagName>**    to push only<br><br/>
+Use **git push -u <<remoteRepoName>> <localRepoName/tagName>** to pull then push
     
     git push origin main
     git push origin master
@@ -46,7 +46,7 @@ Use **git push -u <remoteRepoName> <localRepoName/tagName>** to pull then push
     
 <br/><br/>
 1.1.5 Add project to remote repo with this name<br/><br/> 
-Use **git remote add <remoteRepoName> <https>** 
+Use **git remote add <<remoteRepoName>> <<https>>** 
     
     git remote add main https://github.com/mossssama/GitOsOs.git
     
