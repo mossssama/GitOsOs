@@ -20,7 +20,7 @@ GitOsOs <a name="TOP"></a>
     git init
 
 <br/><br/>
-1.1.2 Add a file/fileUpdate from working directory to staging area
+1.1.2 Add a file/fileUpdate from working directory to staging area<br/><br/>
 Use git add <fileName> as the following three examples
 
     git add OsOs.txt
@@ -28,13 +28,13 @@ Use git add <fileName> as the following three examples
     git add *
     
 <br/><br/>
-1.1.3 Add all files at staging area to local repo
+1.1.3 Add all files at staging area to local repo<br/><br/>
 Use git commit -m <"str"> 
 
     git commit -m "Adding BroadCast Receiver to Project"
     
 <br/><br/>
-1.1.4 Add all files at local repo to remote repo
+1.1.4 Add all files at local repo to remote repo<br/><br/>
 Use git push <remoteRepoName> <localRepoName/tagName>   to push only
 or
 Use git push -u <remoteRepoName> <localRepoName/tagName> to pull then push
@@ -46,7 +46,7 @@ Use git push -u <remoteRepoName> <localRepoName/tagName> to pull then push
     git push -u origin master
     
 <br/><br/>
-1.1.6 Add project to remote repo with this name 
+1.1.5 Add project to remote repo with this name<br/><br/> 
 Use git remote add <remoteRepoName> <https> 
     
     git remote add main https://github.com/mossssama/GitOsOs.git
@@ -54,43 +54,43 @@ Use git remote add <remoteRepoName> <https>
 <br/><br/>
 
 ### 1.2 BackWard
-1.2.1 Return a file/folder from staging area to working directory
+1.2.1 Return a file/folder from staging area to working directory<br/><br/>
 Use git reset hard <fileName/folderName>
 
     git reset hard OsOs.txt
    
 <br/><br/>
-1.2.2 Deletes all pushed commits above this commit 
+1.2.2 Deletes all pushed commits above this commit<br/><br/> 
 Use git reset --hard <hashCodeOfCommitYouWantItToBeLastCommit>
 
     git reset --hard a4ec3db1ddd361433eea4c2fe70a382ad56b0b71
 
 <br/><br/>
-1.2.3 Return a file from staging area to working directory
+1.2.3 Return a file from staging area to working directory<br/><br/>
 Use git restore --staged <file/folderName>
 
     git restore --staged OsOs.txt
 
 <br/><br/>
-1.2.4 List the working directory content that will be deleted
+1.2.4 List the working directory content that will be deleted<br/><br/>
 Use git clean -n
 
     git clean -n
     
 <br/><br/>    
-1.2.5 Delete the working directory content
+1.2.5 Delete the working directory content<br/><br/>
 Use git clean -f
 
     git clean -f
     
 <br/><br/> 
-1.2.6 Take copy from remote repo represented by https to our working directory on PC
+1.2.6 Take copy from remote repo represented by https to our working directory on PC<br/><br/>
 Use git clone <https>
 
     git clone https://github.com/mossssama/GitOsOs.git
 
 <br><br/>
-1.2.7 Take update from remote repo(specific branch) to our working directory on PC
+1.2.7 Take update from remote repo(specific branch) to our working directory on PC<br/><br/>
 Use git pull <branchName>
 
     git pull main
