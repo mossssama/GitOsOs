@@ -54,7 +54,7 @@ Use ** git remote add <remoteRepoName> <https> **
 
 ### 1.2 BackWard
 1.2.1 Return a file/folder from staging area to working directory<br/><br/>
-Use **git reset hard <fileName/folderName>**
+Use **git reset hard *fileName/folderName* **
 
     git reset hard OsOs.txt
    
