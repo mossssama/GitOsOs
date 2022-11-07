@@ -87,27 +87,27 @@ Use **git pull _branchName_**
 
 ### 1.3 Branching (local branches)
 1.3.1 Create branch<br/><br/>		
-Use **git branch __branchName__	**
+Use **git branch _branchName_	**
 
     git branch blindFeature	
 - - - - 
 1.3.2 Rename current branch<br/><br/> 
-Use **git branch -m __newName__**
+Use **git branch -m _newName_**
 
     git branch -m blindMode
 - - - - 
 1.3.3 Delete branch<br/><br/>
-Use **git branch -d __branchName__**
+Use **git branch -d _branchName_**
 
     git branch -d blindMode
 - - - - 
 1.3.4 Switch to specific branch<br/><br/>
-Use **git checkout __branchName__**
+Use **git checkout _branchName_**
 
     git checkout de7kMode
 - - - -     
 1.3.5 Create branch & switch to it<br/><br/>
-Use **git checkout -b __branchName__**
+Use **git checkout -b _branchName_**
 
     git checkout -b ososEngineer
 - - - - 
@@ -115,7 +115,7 @@ Use **git checkout -b __branchName__**
 
 ### 1.4 Merging
 1.4.1 Merge currentBranch with this specificBranch<br/><br/>
-Use **git merge __branchName__**
+Use **git merge _branchName_**
 
     git merge blindMode
 - - - - 
@@ -128,7 +128,7 @@ Use **git stash**
    git stash
 - - - - 
 1.5.2 Saves working directory contents+message in stash<br/><br/> 
-Use **git stash save __writtedMessage__**
+Use **git stash save _writtedMessage_**
 
     git stash save tempStash
 - - - - 
@@ -138,7 +138,7 @@ Use **git stash pop**
     git stash pop	
 - - - - 
 1.5.4 Returns specific stash<br/><br/>
-Use **git stash pop stash@{__number__}**
+Use **git stash pop stash@{_number_}**
 
     git stash pop stash@{3}
 - - - -     
@@ -148,7 +148,7 @@ Use **git stash drop**
     git stash drop
 - - - - 
 1.5.6 Deletes specific stash<br/><br/>
-Use **git stash drop stash@{__number__}**
+Use **git stash drop stash@{_number_}**
 
     git stash drop stash@{3}
 - - - -   
@@ -158,7 +158,7 @@ Use **git stash show**
     git stash show
 - - - - 
 1.5.8 Shows specific stash contents<br/><br/>
-Use **git stash show stash@{__number__}**
+Use **git stash show stash@{_number_}**
 
     git stash show stash@{3}
 - - - -     
@@ -186,22 +186,22 @@ Use **git tag**
    git tag
 - - - - 
 1.6.2 Create tag with this name<br/><br/> 
-Use **git tag __version__**
+Use **git tag _version_**
 
     git tag v1.0
 - - - - 
 1.6.3 Create tag with this name & with commit inside it<br/><br/>
-Use **git tag -a __version__ -m __tagCommit__**
+Use **git tag -a _version_ -m _tagCommit_**
 
     git tag -a __v1.0__ -m __StartingVersion__
 - - - - 
 1.6.4 List all tags starting from entered version<br/><br/>
-Use **git tag -l __version.*__**
+Use **git tag -l _version_.***
 
     git tag -l __2.*__
 - - - -     
 1.6.5 Delete remote tag with this name<br/><br/>
-Use **git tag -d __version__**
+Use **git tag -d _version_**
 
     git tag -d __1.0__
 - - - - 
@@ -243,12 +243,12 @@ Use **git config -l --show origin**
     git config -l --show origin
 - - - - 
 3.3 Gives the value assigned to this property<br/><br/>
-Use **git config --global __gitProperty__** 
+Use **git config --global _gitProperty_** 
 
     git config --global user.name
 - - - - 
 3.4 Assigns a value to this property<br/><br/>
-Use **git config --global __gitProperty__ __value__** to push only<br><br/>
+Use **git config --global _gitProperty_ _value_** to push only<br><br/>
     
     git config --global user.name OsOs
 - - - - 
@@ -258,7 +258,7 @@ Use **git config --global --edit**
     git config --global --edit	
 - - - -
 3.6 Gives speed dial to specific command<br/><br/>
-Use **git config --global alias.__speedDial__ __commandToBeReplaced__** 
+Use **git config --global alias._speedDial_ _commandToBeReplaced_** 
     
     git config --global alias.cm "commit -m"
     git config --global alias.st status
@@ -281,7 +281,6 @@ Use **ssh-keygen -t rsa -b 4096 -C __emailAddress__**
 - - - -
 - - - -
 
-
-Don't forget while dealing with git Commands in cmd<br/><br/>
+Don't forget while dealing with git Commands in cmd
 - origin is default remote repo branch
 - master is default local repo branch
