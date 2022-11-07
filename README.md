@@ -87,7 +87,7 @@ Use **git pull _branchName_**
 
 ### 1.3 Branching (local branches)
 1.3.1 Create branch<br/><br/>		
-Use **git branch _branchName_	**
+Use **git branch _branchName_**
 
     git branch blindFeature	
 - - - - 
