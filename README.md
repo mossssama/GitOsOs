@@ -235,6 +235,7 @@ Use **git log**
 ## 3. Configuration   
 3.1 Gives all the available configurations/gitProperties<br/><br/>
 Use **git config -l**
+
     git config -l
 - - - - 
 3.2 Gives the configurations locations on our PC<br/><br/>
@@ -273,7 +274,7 @@ Use **ssh -T git@github.com**
     ssh -T git@github.com
 - - - - 
 4.2 Asks to generate a key to allow pushing updates to gitHub from another device(without need to sign in to gitHub<br/><br/> 
-Use **ssh-keygen -t rsa -b 4096 -C __emailAddress__**
+Use **ssh-keygen -t rsa -b 4096 -C _emailAddress_**
 
     ssh-keygen -t rsa -b 4096 -C messi@gmail.com
 - - - -
