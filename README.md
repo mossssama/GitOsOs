@@ -83,10 +83,205 @@ Use **git pull _branchName_**
 
     git pull main
 - - - - 
+- - - -
+
+### 1.3 Branching (local branches)
+1.3.1 Create branch<br/><br/>		
+Use **git branch __branchName__	**
+
+    git branch blindFeature	
+- - - - 
+1.3.2 Rename current branch<br/><br/> 
+Use **git branch -m __newName__**
+
+    git branch -m blindMode
+- - - - 
+1.3.3 Delete branch<br/><br/>
+Use **git branch -d __branchName__**
+
+    git branch -d blindMode
+- - - - 
+1.3.4 Switch to specific branch<br/><br/>
+Use **git checkout __branchName__**
+
+    git checkout de7kMode
+- - - -     
+1.3.5 Create branch & switch to it<br/><br/>
+Use **git checkout -b __branchName__**
+
+    git checkout -b ososEngineer
+- - - - 
+- - - - 
+
+### 1.4 Merging
+1.4.1 Merge currentBranch with this specificBranch<br/><br/>
+Use **git merge __branchName__**
+
+    git merge blindMode
+- - - - 
+- - - - 
+
+### 1.5 Stashing(in a directory)
+1.5.1 Saves working directory contents in stash<br/><br/>		
+Use **git stash	**
+
+   git stash
+- - - - 
+1.5.2 Saves working directory contents+message in stash<br/><br/> 
+Use **git stash save __writtedMessage__**
+
+    git stash save tempStash
+- - - - 
+1.5.3 Returns last stash<br/><br/>
+Use **git stash pop	**
+
+    git stash pop	
+- - - - 
+1.5.4 Returns specific stash<br/><br/>
+Use **git stash pop stash@{__number__}**
+
+    git stash pop stash@{3}
+- - - -     
+1.5.5 Deletes last stash<br/><br/>
+Use **git stash drop**
+
+    git stash drop
+- - - - 
+1.5.6 Deletes specific stash<br/><br/>
+Use **git stash drop stash@{__number__}**
+
+    git stash drop stash@{3}
+- - - -   
+1.5.7 Shows last stash contents<br/><br/>
+Use **git stash show**
+
+    git stash show
+- - - - 
+1.5.8 Shows specific stash contents<br/><br/>
+Use **git stash show stash@{__number__}**
+
+    git stash show stash@{3}
+- - - -     
+1.5.9 Returns copy of last stash<br/><br/>
+Use **git stash apply**
+
+    git stash apply
+- - - - 
+1.5.10 Gives all stashes<br/><br/>
+Use **git stash list**
+
+    git stash list
+- - - -   
+1.5.11 delete all stashes<br/><br/>
+Use **git stash clear**
+
+    git stash clear
+- - - -     
+- - - -
+
+### 1.6 Tagging/Realesing
+1.6.1 Gives all created tags in local repo<br/><br/>		
+Use **git tag**
+
+   git tag
+- - - - 
+1.6.2 Create tag with this name<br/><br/> 
+Use **git tag __version__**
+
+    git tag v1.0
+- - - - 
+1.6.3 Create tag with this name & with commit inside it<br/><br/>
+Use **git tag -a __version__ -m __tagCommit__**
+
+    git tag -a __v1.0__ -m __StartingVersion__
+- - - - 
+1.6.4 List all tags starting from entered version<br/><br/>
+Use **git tag -l __version.*__**
+
+    git tag -l __2.*__
+- - - -     
+1.6.5 Delete remote tag with this name<br/><br/>
+Use **git tag -d __version__**
+
+    git tag -d __1.0__
+- - - - 
+- - - -   
+- - - - 
 
 ## 2. Information 
+2.1 Gives information about unstaged/unadded files & uncommited files<br/><br/>
+Use **git status**
+
+    git status
+- - - - 
+2.2 Gives all the available branches in local repo<br/><br/> 
+Use **git branch**
+
+    git branch
+- - - - 
+2.3 Gives all the available branches in remote repo<br/><br/>
+Use **git remote -v**
+
+    git remote -v
+- - - - 
+2.4 Gives all the previous commits with the HEAD; HEAD is pointer to last commit;(use q to get out of log)<br/><br/>
+Use **git log**
+
+    git log
+- - - -
+- - - -
+- - - -
     
-# To Be Continued #
+## 3. Configuration   
+3.1 Gives all the available configurations/gitProperties<br/><br/>
+Use **git config -l** as the following three examples
+    git config -l
+- - - - 
+3.2 Gives the configurations locations on our PC<br/><br/>
+Use **git config -l --show origin** as the following three examples
 
-    Stay Tuned
+    git config -l --show origin
+- - - - 
+3.3 Gives the value assigned to this property<br/><br/>
+Use **git config --global __gitProperty__** 
 
+    git config --global user.name
+- - - - 
+3.4 Assigns a value to this property<br/><br/>
+Use **git config --global __gitProperty__ __value__** to push only<br><br/>
+    
+    git config --global user.name OsOs
+- - - - 
+3.5 Allows editing properties using textEditor not cmd<br/><br/> 
+Use **git config --global --edit** 
+    
+    git config --global --edit	
+- - - -
+3.6 Gives speed dial to specific command<br/><br/>
+Use **git config --global alias.__speedDial__ __commandToBeReplaced__** 
+    
+    git config --global alias.cm "commit -m"
+    git config --global alias.st status
+- - - -
+- - - -
+- - - -
+
+## 4. Information 
+4.1 Asks to enter key passphrase to verify yourself to be able to push to gitHub without signing in<br/><br/>
+Use **ssh -T git@github.com**
+
+    ssh -T git@github.com
+- - - - 
+4.2 Asks to generate a key to allow pushing updates to gitHub from another device(without need to sign in to gitHub<br/><br/> 
+Use **ssh-keygen -t rsa -b 4096 -C __emailAddress__**
+
+    ssh-keygen -t rsa -b 4096 -C messi@gmail.com
+- - - -
+- - - -
+- - - -
+- - - -
+
+
+Don't forget while dealing with git Commands in cmd<br/><br/>
+- origin is default remote repo branch
+- master is default local repo branch
