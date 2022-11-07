@@ -123,7 +123,7 @@ Use **git merge __branchName__**
 
 ### 1.5 Stashing(in a directory)
 1.5.1 Saves working directory contents in stash<br/><br/>		
-Use **git stash	**
+Use **git stash**
 
    git stash
 - - - - 
@@ -133,7 +133,7 @@ Use **git stash save __writtedMessage__**
     git stash save tempStash
 - - - - 
 1.5.3 Returns last stash<br/><br/>
-Use **git stash pop	**
+Use **git stash pop**
 
     git stash pop	
 - - - - 
@@ -234,11 +234,11 @@ Use **git log**
     
 ## 3. Configuration   
 3.1 Gives all the available configurations/gitProperties<br/><br/>
-Use **git config -l** as the following three examples
+Use **git config -l**
     git config -l
 - - - - 
 3.2 Gives the configurations locations on our PC<br/><br/>
-Use **git config -l --show origin** as the following three examples
+Use **git config -l --show origin**
 
     git config -l --show origin
 - - - - 
